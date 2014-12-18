@@ -1,30 +1,37 @@
 {
-    "name": "brianmcdo/image-palette",
-    "type": "library",
-    "description": "Extracts colors from an image and generates a color palette against a whitelist of colors.",
-    "keywords": ["image","color","palette","extractor","gd","laravel"],
-    "homepage": "https://github.com/BrianMcdo/ImagePalette",
-    "license": "MIT",
-    "minimum-stability": "stable",
-    "authors": [
-        {
-            "name": "Brian McDonald",
-            "email": "brian@brianmcdonald.io",
-            "homepage": "http://brianmcdonald.io",
-            "role": "Developer"
-        }
-    ],
-    "replace": {
-        "bfoxwell/image-palette": "*"
+  "name": "marnulombard/image-palette",
+  "type": "library",
+  "description": "Extracts colors from an image and generates a color palette against a whitelist of colors.",
+  "keywords": ["image","color","palette","extractor","gd","laravel"],
+  "homepage": "https://github.com/MarnuLombard/ImagePalette",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Brian McDonald",
+      "email": "brian@brianmcdonald.io",
+      "homepage": "http://brianmcdonald.io",
+      "role": "Developer"
     },
-    "require": {
-        "php": ">=5.4.0",
-        "ext-gd": "*",
-        "illuminate/support": "4.x"
-    },
-    "autoload": {
-        "psr-4": {
-            "BrianMcdo\\ImagePalette\\": "src/BrianMcdo/ImagePalette"
-        }
+    {
+      "name": "Marnu Lombard",
+      "email": "marnu@marnulombard.com",
+      "homepage": "http://marnulombard.com",
+      "role": "Developer"
     }
+  ],
+  "replace": {
+    "bfoxwell/image-palette": "*",
+    "brianmcdo/ImagePalette": "dev-master#46fed0e5391086313fdc22a2db2bd9720bda4195"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "ext-gd": "*",
+    "illuminate/support": "~5.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "BrianMcdo\\ImagePalette\\": "src/BrianMcdo/ImagePalette"
+    }
+  }
 }
